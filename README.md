@@ -1,4 +1,4 @@
-# ❤️ Heart Disease Prediction — End-to-End ML Project
+# ❤️ Heart Disease Prediction : End-to-End ML Project
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)](https://streamlit.io)
@@ -70,7 +70,7 @@ heart-disease-prediction/
 
 ---
 
-## 📈 Step 4: Linear Regression — Predicting Cholesterol
+## 📈 Step 4: Linear Regression ; Predicting Cholesterol
 
 ### Model Setup
 - **Target Variable:** Cholesterol (continuous)
@@ -101,7 +101,7 @@ heart-disease-prediction/
 
 ---
 
-## 🤖 Step 5: Logistic Regression — Heart Disease Classification
+## 🤖 Step 5: Logistic Regression ; Heart Disease Classification
 
 ### Model Setup
 - **Target Variable:** Heart Disease (binary: 0=Absence, 1=Presence)
@@ -155,12 +155,12 @@ streamlit run app.py
 ```
 
 The dashboard includes:
-- 🏠 **Overview** — Project summary and KPI metrics
-- 📦 **Data Collection** — Dataset description and raw data preview
-- 🔧 **Preprocessing** — Missing values, scaling, encoding steps
-- 📊 **EDA** — Interactive visualizations: distributions, correlations, boxplots, pairplots
-- 🤖 **Modeling** — Linear and logistic regression results, ROC curve, confusion matrix
-- 🔮 **Predict** — Live prediction tool with interactive sliders
+- 🏠 **Overview** :Project summary and KPI metrics
+- 📦 **Data Collection** : Dataset description and raw data preview
+- 🔧 **Preprocessing** : Missing values, scaling, encoding steps
+- 📊 **EDA** : Interactive visualizations: distributions, correlations, boxplots, pairplots
+- 🤖 **Modeling** : Linear and logistic regression results, ROC curve, confusion matrix
+- 🔮 **Predict** : Live prediction tool with interactive sliders
 
 ---
 

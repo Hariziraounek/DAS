@@ -28,14 +28,18 @@ st.markdown("""
 <style>
     /* ── Global background & text ── */
     .stApp {
-        background: #F8EC6C !important;
+        background: #FFE4EC !important;  /* light pink instead of yellow */
     }
+
     section[data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #6A2B6F 0%, #3d1a42 100%) !important;
+        background: linear-gradient(180deg, #B73A5D 0%, #7A1F3D 100%) !important;
+        /* red gradient instead of purple */
     }
+
     section[data-testid="stSidebar"] * {
         color: #f8f0ff !important;
     }
+
     section[data-testid="stSidebar"] .stRadio label {
         color: #f8f0ff !important;
     }
@@ -45,54 +49,87 @@ st.markdown("""
 
     /* ── Title & subtitle ── */
     .main-title {
-        font-size: 2.4rem; font-weight: 800; color: #B73A5D;
-        text-align: center; margin-bottom: 0.2rem;
+        font-size: 2.4rem;
+        font-weight: 800;
+        color: #B73A5D;
+        text-align: center;
+        margin-bottom: 0.2rem;
     }
+
     .sub-title {
-        text-align: center; color: #6A2B6F;
-        margin-bottom: 1.5rem; font-size: 1rem;
+        text-align: center;
+        color: #B73A5D;  /* replaced purple with red */
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
     }
 
     /* ── Metric cards ── */
     .metric-card {
-        background: linear-gradient(135deg, #6A2B6F 0%, #3AA6B7 100%);
-        padding: 1.2rem; border-radius: 12px; text-align: center;
-        color: white !important; margin: 0.3rem;
+        background: linear-gradient(135deg, #B73A5D 0%, #3AA6B7 100%);
+        /* red instead of purple */
+        padding: 1.2rem;
+        border-radius: 12px;
+        text-align: center;
+        color: white !important;
+        margin: 0.3rem;
     }
-    .metric-val { font-size: 2rem; font-weight: 800; color: white !important; }
-    .metric-lbl { font-size: 0.85rem; opacity: 0.85; margin-top: 0.2rem; color: white !important; }
+
+    .metric-val {
+        font-size: 2rem;
+        font-weight: 800;
+        color: white !important;
+    }
+
+    .metric-lbl {
+        font-size: 0.85rem;
+        opacity: 0.85;
+        margin-top: 0.2rem;
+        color: white !important;
+    }
 
     /* ── Section headers ── */
     .section-header {
-        font-size: 1.4rem; font-weight: 700; color: #6A2B6F;
-        border-left: 5px solid #B73A5D; padding-left: 0.6rem; margin: 1.2rem 0 0.8rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #B73A5D;   /* red instead of purple */
+        border-left: 5px solid #EF695D;
+        padding-left: 0.6rem;
+        margin: 1.2rem 0 0.8rem;
     }
 
-    /* ── Info boxes — DARK text explicitly forced ── */
+    /* ── Info boxes ── */
     .insight-box {
         background: #e8f9fb;
-        border-radius: 10px; padding: 1rem 1.2rem;
-        border-left: 4px solid #3AA6B7; margin: 0.5rem 0;
+        border-radius: 10px;
+        padding: 1rem 1.2rem;
+        border-left: 4px solid #3AA6B7;
+        margin: 0.5rem 0;
         color: #1a0a1f !important;
     }
-    .insight-box b, .insight-box strong, .insight-box small,
-    .insight-box li, .insight-box ul { color: #1a0a1f !important; }
 
     .warn-box {
         background: #fff0eb;
-        border-radius: 10px; padding: 1rem 1.2rem;
-        border-left: 4px solid #EF695D; margin: 0.5rem 0;
+        border-radius: 10px;
+        padding: 1rem 1.2rem;
+        border-left: 4px solid #EF695D;
+        margin: 0.5rem 0;
         color: #1a0a1f !important;
     }
-    .warn-box b, .warn-box strong { color: #1a0a1f !important; }
 
-    /* ── Streamlit native widgets text ── */
+    /* ── Streamlit native widgets ── */
     .stMarkdown, .stText, h1, h2, h3, h4, label, p {
         color: #1a0a1f !important;
     }
+
     /* ── Tabs ── */
-    .stTabs [data-baseweb="tab"] { color: #6A2B6F !important; font-weight: 600; }
-    .stTabs [aria-selected="true"] { border-bottom: 3px solid #B73A5D !important; }
+    .stTabs [data-baseweb="tab"] {
+        color: #B73A5D !important;  /* red instead of purple */
+        font-weight: 600;
+    }
+
+    .stTabs [aria-selected="true"] {
+        border-bottom: 3px solid #EF695D !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
