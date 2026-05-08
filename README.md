@@ -4,6 +4,12 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)](https://streamlit.io)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-ML-orange)](https://scikit-learn.org)
 
+## 🚀 Live Application
+
+👉 **Try the live app here:** [https://heartdash.streamlit.app/](https://heartdash.streamlit.app/)
+
+---
+
 ## 📋 Project Overview
 
 This project builds a complete machine learning pipeline to **predict heart disease** in patients using clinical data. It covers every stage of a data science workflow: data collection, preprocessing, exploratory data analysis, linear/logistic regression modeling, and an interactive Streamlit dashboard.
